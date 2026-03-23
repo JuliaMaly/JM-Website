@@ -1,7 +1,7 @@
 ## Опис продукту
 
 Цей проєкт є повноцінним **fullstack веб-застосунком**, який складається з клієнтської (frontend) та серверної (backend) частин.
-
+---
 ### Архітектура
 
 Застосунок побудований за клієнт-серверною архітектурою:
@@ -25,6 +25,56 @@
 - навігувати між сторінками через інтерфейс
 
 ---
+## Як запустити проєкт
+
+### 1. Клонувати репозиторій
+
+```
+git clone https://github.com/JuliaMaly/JM-Website.git
+```
+
+---
+
+### 2. Запуск backend
+
+```
+cd lab2
+npm install
+node server.js
+```
+
+Backend працює на:
+
+```
+http://localhost:3000
+```
+
+---
+
+### 3. Запуск frontend
+
+(у новому терміналі)
+
+```
+cd frontend-lab3
+npm install
+npm run dev
+```
+
+Frontend працює на:
+
+```
+http://localhost:5173
+```
+
+---
+
+### Важливо
+
+- backend і frontend мають працювати одночасно
+- дані очищаються після перезапуску сервера
+
+---
 
 ### Авторизація
 
@@ -42,6 +92,7 @@
 email: admin@gmail.com
 password: 123456
 ```
+<img width="1366" height="579" alt="image_2026-03-23_13-58-00" src="https://github.com/user-attachments/assets/b18a0fdb-c4bb-452e-97cd-c9805793de76" />
 
 ---
 
@@ -50,7 +101,8 @@ password: 123456
 У застосунку реалізовані **захищені маршрути**:
 
 - сторінки `/dashboard`, `/products`, `/orders` доступні лише після авторизації
-- неавторизований користувач автоматично перенаправляється на сторінку логіну
+<img width="1348" height="887" alt="image" src="https://github.com/user-attachments/assets/5ace8416-0a98-43f4-9b43-9e701c39835b" />
+
 
 ---
 
@@ -98,6 +150,8 @@ Frontend взаємодіє з backend через HTTP-запити:
 - навігаційне меню (Navbar)
 - повідомлення про помилки та успішні дії
 - індикатори завантаження
+<img width="1349" height="791" alt="image" src="https://github.com/user-attachments/assets/b0608833-c655-4cea-8693-67ee95257bfe" />
+<img width="1338" height="318" alt="image" src="https://github.com/user-attachments/assets/ac7d7b94-6fd0-4933-ad17-9e4fbf0a1d74" />
 
 ---
 
